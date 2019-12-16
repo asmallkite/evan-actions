@@ -10,5 +10,5 @@ outputs:
     description: 'The time we greet you'
 
 runs:
-  using: 'node13.3.0'
+  using: node12
   main: 'dist/index.js'
