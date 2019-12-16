@@ -1,0 +1,14 @@
+name: 'evan action test'
+description: 'a start project for action test'
+inputs:
+  who-to-greet:
+    description: 'who to greet'
+    required: true
+    default: 'Evan'
+outputs:
+  time:
+    description: 'The time we greet you
+
+runs:
+  using: 'node13.3.0'
+  main: 'dist/index.js'
