@@ -7,8 +7,8 @@ inputs:
     default: 'Evan'
 outputs:
   time:
-    description: 'The time we greet you
+    description: 'The time we greet you'
 
 runs:
-  using: 'node12'
+  using: 'node13.3.0'
   main: 'dist/index.js'
