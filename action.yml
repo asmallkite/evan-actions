@@ -6,8 +6,8 @@ inputs:
     required: true
     default: 'World'
 outputs:
-  time: # 输出 id
-    description: 'The time we greeted you'
+  name-you-greet: # 输出 id
+    description: 'The person we greeted you'
 runs:
   using: 'node12'
   main: 'dist/index.js'
